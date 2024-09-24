@@ -117,7 +117,7 @@ body .navigation .actions .button-action {
 
 .hero {
     display: flex;
-    padding: 39px;
+    padding-top: 39px;
 }
 
 .hero div:not(.info) {
