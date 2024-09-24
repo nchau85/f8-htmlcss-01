@@ -475,3 +475,102 @@ main>.header {
     font-size: 1.8rem;
     font-weight: 500;
 }
+
+/**********************************************/
+.Newsletter {
+    margin-top: 120px;
+    margin-bottom: 55px;
+}
+
+
+
+.Newsletter .body {
+    display: flex;
+    align-items: center;
+    height: 370px;
+    border-radius: 20px;
+    background: #063183;
+}
+
+.Newsletter .info {
+    width: 671px;
+    padding: 0px 80px;
+}
+
+.Newsletter .sub-title {
+    --line-clamp: 2;
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1;
+    /* 100% */
+}
+
+.Newsletter .desc {
+    --line-clamp: 3;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.88;
+    padding-top: 15px;
+    padding-bottom: 22px;
+}
+
+.Newsletter .button {
+    width: 151px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #FFF;
+    color: #002366;
+}
+
+.Newsletter .body>img {
+    align-self: flex-end;
+}
+
+/**********************************************/
+
+
+.footer .menu,
+.footer .logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .menu h2 {
+    padding-top: 50px;
+    padding-bottom: 42px;
+    color: #1C1C1D;
+    font-size: 2.0rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer .menu a,
+.footer .menu p {
+    color: #7e7a7a;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer .menu li {
+    padding-bottom: 18px;
+}
+
+.footer .menu p {
+    width: 275px;
+}
+
+.footer .logo {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.footer .logo p {
+    color: #C2C2C2;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
